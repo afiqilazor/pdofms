@@ -1,0 +1,70 @@
+.table1 {
+background: rgba(255,255,255,0.5);
+}
+
+.input-xs {
+    height: 22px;
+    padding: 5px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+body {
+  font: 13px/20px "Trebuchet MS", Tahoma, Verdana, sans-serif;
+  color: black;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  background-image: url("background.jpg");
+}
+
+th {
+  font: 10px "Trebuchet MS", Tahoma, Verdana, sans-serif;
+	text-align: middle;
+  background-color: #4172b3;
+  color: white;
+}
+
+tr {
+  font: 10px "Trebuchet MS", Tahoma, Verdana, sans-serif;
+}
+
+.table-curved {
+    border-collapse: separate;
+}
+.table-curved {
+    border: solid #ccc 1px;
+    border-radius: 6px;
+    border-left:0px;
+}
+.table-curved td, .table-curved th {
+    border-left: 0px solid #ccc;
+    border-top: 0px solid #ccc;
+}
+.table-curved th {
+    border-top: none;
+}
+.table-curved th:first-child {
+    border-radius: 0px 0 0 0;
+}
+.table-curved th:last-child {
+    border-radius: 0 0px 0 0;
+}
+.table-curved th:only-child{
+    border-radius: 0px 0px 0 0;
+}
+.table-curved tr:last-child td:first-child {
+    border-radius: 0 0 0 0px;
+}
+.table-curved tr:last-child td:last-child {
+    border-radius: 0 0 0px 0;
+}
+
+@page { size: landscape; }
+
+
